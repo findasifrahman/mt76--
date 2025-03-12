@@ -1,0 +1,392 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "144686d4-2b77-460c-9924-cc86faff7e9d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 163.83 59.69)
+		(size 62.23 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "218ba002-e319-46e9-a80e-651bdbb44c2c")
+		(property "Sheetname" "Pheripheral"
+			(at 163.83 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pheripheral.kicad_sch"
+			(at 163.83 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 100.33)
+		(size 50.8 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f56969f-c15e-472c-a90e-1c9ed534eadd")
+		(property "Sheetname" "RF_Front_End"
+			(at 26.67 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF_Front_End.kicad_sch"
+			(at 26.67 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 21.59)
+		(size 48.26 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc42e46e-6e7a-4135-9dbd-059be9291a07")
+		(property "Sheetname" "dip"
+			(at 166.37 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dip.kicad_sch"
+			(at 166.37 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 21.59)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf8f1e72-29e7-42fb-9405-1131aaba26a2")
+		(property "Sheetname" "config"
+			(at 24.13 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "config.kicad_sch"
+			(at 24.13 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 21.59)
+		(size 57.15 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6797832-df5c-4007-a403-ab5e3d7ff058")
+		(property "Sheetname" "ddr2_cfg"
+			(at 81.28 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr_cfg.kicad_sch"
+			(at 81.28 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 106.68)
+		(size 71.12 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d136ccdd-d369-41a7-95db-a3b0f1b1dbbd")
+		(property "Sheetname" "DDR_IF"
+			(at 185.42 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr_if.kicad_sch"
+			(at 185.42 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 99.06)
+		(size 49.53 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e726f949-87b9-4003-b19f-514b2cb91158")
+		(property "Sheetname" "SPI_Flash"
+			(at 100.33 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPI_Flash.kicad_sch"
+			(at 100.33 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 58.42)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e98d7627-8453-4426-bf8d-7d76af929d8e")
+		(property "Sheetname" "power"
+			(at 25.4 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 25.4 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 58.42)
+		(size 41.91 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee243a0d-1427-4ec7-9f27-222881e3da4a")
+		(property "Sheetname" "reset"
+			(at 97.79 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reset.kicad_sch"
+			(at 97.79 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
