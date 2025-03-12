@@ -6479,7 +6479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MT7628:MT7628_footprint"
 			(at 149.86 81.28 0)
 			(effects
 				(font

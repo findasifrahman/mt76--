@@ -2970,7 +2970,7 @@
 	)
 	(symbol
 		(lib_id "mt7628_222:MT7628_*")
-		(at 48.26 45.72 0)
+		(at 96.52 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2978,7 +2978,7 @@
 		(dnp no)
 		(uuid "3bd0b28f-063b-42b3-b045-cda54adc4fb8")
 		(property "Reference" "U2"
-			(at 48.006 37.846 0)
+			(at 96.266 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,15 +2986,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 48.895 38.1 0)
+			(at 97.155 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 48.26 45.72 0)
+		(property "Footprint" "MT7628:MT7628_footprint"
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 45.72 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 45.72 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
