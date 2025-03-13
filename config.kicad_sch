@@ -610,16 +610,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 132.08) (xy 167.64 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15bc95d9-624b-42b5-9fb7-a669e71a11b9")
-	)
-	(wire
-		(pts
 			(xy 91.44 142.24) (xy 106.68 142.24)
 		)
 		(stroke
@@ -820,16 +810,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 66.04) (xy 236.22 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74092036-a5e3-4c64-9d88-4770db3890f6")
-	)
-	(wire
-		(pts
 			(xy 81.28 78.74) (xy 91.44 78.74)
 		)
 		(stroke
@@ -877,16 +857,6 @@
 			(type default)
 		)
 		(uuid "9667fec8-63ce-4458-b9e4-03466a7bccc9")
-	)
-	(wire
-		(pts
-			(xy 167.64 132.08) (xy 167.64 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "979b9f06-ca95-489f-ab86-3844bd1bcce2")
 	)
 	(wire
 		(pts
@@ -997,16 +967,6 @@
 			(type default)
 		)
 		(uuid "dae5f269-200f-4931-96f5-640e1ccaccff")
-	)
-	(wire
-		(pts
-			(xy 167.64 66.04) (xy 236.22 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db4a97df-3eb1-4ec3-875c-3427fd248d15")
 	)
 	(wire
 		(pts
@@ -1208,82 +1168,159 @@
 		)
 		(uuid "d8fe4066-eaaa-4856-b9e3-e3091b11ee90")
 	)
-	(hierarchical_label "SPI_CS1"
-		(shape bidirectional)
-		(at 83.82 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a474805-3505-4553-bb64-dc46ff1170ff")
-	)
-	(hierarchical_label "UART_TXD1"
-		(shape bidirectional)
-		(at 83.82 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "57a75257-0459-4217-814e-acb9cbc036e3")
-	)
-	(hierarchical_label "SPI_MOSI"
-		(shape bidirectional)
-		(at 83.82 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b4da785-0196-4456-a046-d3feb9c86c95")
-	)
-	(hierarchical_label "I2S_DO"
-		(shape bidirectional)
-		(at 83.82 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e7a6035-8174-442a-8c41-fcfe2ce4e384")
-	)
-	(hierarchical_label "UART_TXD0"
-		(shape bidirectional)
-		(at 83.82 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6006a77-22d4-4cf2-8e88-57fdb4152ac0")
-	)
-	(hierarchical_label "PERST_N"
-		(shape bidirectional)
+	(global_label "PERST_N"
+		(shape input)
 		(at 83.82 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c285eea0-1638-4c4d-9d28-936273543c47")
+		(uuid "3342eb3e-bb79-4b30-a909-52fd257e0970")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.6706 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "SPI_CLK"
-		(shape bidirectional)
-		(at 83.82 43.18 180)
+	(global_label "SPI_MOSI"
+		(shape input)
+		(at 83.82 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "edb13abf-feaf-4399-b8af-bfafa984174c")
+		(uuid "399d80cb-29b7-42da-afba-0566b2847474")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.1867 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TXD0"
+		(shape input)
+		(at 83.82 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82c23dc2-d4f5-47b1-841c-672f9660739f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.5539 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_DO"
+		(shape input)
+		(at 83.82 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f44ce59-7580-4bb7-b69d-8a6e20999723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.2429 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TXD1"
+		(shape input)
+		(at 83.82 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a588469e-d74b-4c77-a15d-abada422ff96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.5539 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_CLK"
+		(shape input)
+		(at 83.82 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcd8adfb-d647-499d-bb73-f45af446f88b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.2148 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_CS1"
+		(shape input)
+		(at 83.82 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e245ceb5-0b4e-4235-8f87-8e96938c01b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.0939 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Config-altium-import:root_0_Res1_Miscellaneous Devices.SchLib")

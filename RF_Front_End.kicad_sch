@@ -3893,6 +3893,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "testeda:ANT_SHAFT_SEAT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4211,6 +4336,12 @@
 		(uuid "8d3c777a-9f36-40d0-80cd-04abd9e36885")
 	)
 	(junction
+		(at 36.83 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "932a1cfc-716b-42ae-99a2-bc67e9f7adb0")
+	)
+	(junction
 		(at 99.06 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4295,12 +4426,6 @@
 		(uuid "c6365bc7-8e4b-4279-beb9-88f7508f9bcb")
 	)
 	(junction
-		(at 57.15 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc751155-c1a4-447d-8f03-d587ee9352c2")
-	)
-	(junction
 		(at 63.5 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4329,12 +4454,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dea7c11b-9b07-4300-8d80-caaff457d5a7")
-	)
-	(junction
-		(at 36.83 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df962c3a-9e0c-414c-b9a9-8bd353cdc5cb")
 	)
 	(junction
 		(at 168.91 62.23)
@@ -4536,7 +4655,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 71.12) (xy 57.15 68.58)
+			(xy 57.15 68.58) (xy 57.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4856,16 +4975,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 74.93) (xy 57.15 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55ca4bed-c5d2-438d-8b66-ba6435fc0fa6")
-	)
-	(wire
-		(pts
 			(xy 106.68 50.8) (xy 109.22 50.8)
 		)
 		(stroke
@@ -4923,16 +5032,6 @@
 			(type default)
 		)
 		(uuid "5ac4c4ec-2e0f-450d-aec8-0c82207ff2f2")
-	)
-	(wire
-		(pts
-			(xy 40.64 71.12) (xy 57.15 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce3dac8-03e7-44cf-ba1a-fc745f95ba33")
 	)
 	(wire
 		(pts
@@ -5973,7 +6072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 122.8852 85.09 0)
 			(effects
 				(font
@@ -5992,6 +6091,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15684"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -6105,7 +6213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 213.36 61.2648 0)
 			(effects
 				(font
@@ -6132,6 +6240,15 @@
 				(hide yes)
 			)
 		)
+		(property "LOSC" "C1580"
+			(at 209.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6d4d95b-a828-4f14-b05e-19aaa7640e6f")
 		)
@@ -6142,75 +6259,6 @@
 			(project "mt7628v1"
 				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
 					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 40.64 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "145fb425-61da-4607-89a2-4a3d1968e927")
-		(property "Reference" "C62"
-			(at 40.894 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10pf/50v"
-			(at 39.116 77.216 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.6052 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 40.64 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "587615d3-d2f1-4bae-96da-740205529faf")
-		)
-		(pin "1"
-			(uuid "42141057-fca2-46b6-9cba-8e2863c80582")
-		)
-		(instances
-			(project "mt7628v1"
-				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
-					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -6280,68 +6328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MT7688AN_Power-altium-import:3.3VD_CIRCLE")
-		(at 115.57 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19e8468b-dc46-44f7-9b67-f34eddde9dea")
-		(property "Reference" "#PWR070"
-			(at 115.57 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WF_SX_3V3_IN"
-			(at 119.888 112.776 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "da3e37f6-a914-4eb1-bb8d-d4f3e6d5b647")
-		)
-		(instances
-			(project "mt7628v1"
-				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 148.59 58.42 90)
 		(unit 1)
@@ -6366,7 +6352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 148.59 58.42 0)
 			(effects
 				(font
@@ -6386,6 +6372,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18216"
+			(at 148.59 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6456,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C9900016457"
+		(property "LCSC" "C9900016457"
 			(at 240.03 54.61 0)
 			(effects
 				(font
@@ -6515,7 +6510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 168.6052 45.72 0)
 			(effects
 				(font
@@ -6534,6 +6529,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1546"
 			(at 167.64 41.91 0)
 			(effects
 				(font
@@ -6831,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 229.87 55.88 0)
 			(effects
 				(font
@@ -6851,6 +6855,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18216"
+			(at 229.87 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +6911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.71 108.458 90)
 			(effects
 				(font
@@ -6918,6 +6931,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 92.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 92.71 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.9852 45.72 0)
 			(effects
 				(font
@@ -7173,6 +7195,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15684"
 			(at 160.02 41.91 0)
 			(effects
 				(font
@@ -7286,7 +7317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 175.26 54.9148 0)
 			(effects
 				(font
@@ -7305,6 +7336,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 171.45 55.88 0)
 			(effects
 				(font
@@ -8012,7 +8052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 199.39 54.9148 0)
 			(effects
 				(font
@@ -8039,6 +8079,15 @@
 				(hide yes)
 			)
 		)
+		(property "LOSC" "C1551"
+			(at 195.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56333f89-f993-4a19-b660-ece427bf678b")
 		)
@@ -8049,68 +8098,6 @@
 			(project "mt7628v1"
 				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MT7688AN_Power-altium-import:3.3VD_CIRCLE")
-		(at 36.83 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4102ce97-d4a9-4b0d-a292-3edf2ac7ecbf")
-		(property "Reference" "#PWR042"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WF_SX_3V3_IN"
-			(at 36.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "5053b397-fe58-4596-a074-debf6c5f8404")
-		)
-		(instances
-			(project "mt7628v1"
-				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8143,7 +8130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 53.0352 45.72 0)
 			(effects
 				(font
@@ -8162,6 +8149,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1546"
 			(at 52.07 41.91 0)
 			(effects
 				(font
@@ -8276,7 +8272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 165.1 61.2648 0)
 			(effects
 				(font
@@ -8295,6 +8291,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 161.29 62.23 0)
 			(effects
 				(font
@@ -8337,10 +8342,10 @@
 			)
 		)
 		(property "Value" "WF_XTAL_3V3_IN"
-			(at 62.23 50.8 0)
+			(at 67.818 52.832 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -8407,7 +8412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 79.7052 115.57 0)
 			(effects
 				(font
@@ -8426,6 +8431,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15684"
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -8476,7 +8490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 186.69 52.07 0)
 			(effects
 				(font
@@ -8503,6 +8517,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C76770"
+			(at 186.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0048566f-c920-4682-b6ac-68cad34ef42b")
 		)
@@ -8513,6 +8536,73 @@
 			(project "mt7628v1"
 				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 115.57 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "646012b8-60fa-4e97-87fa-3902b36cd281")
+		(property "Reference" "#PWR0108"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WF_SX_3V3_IN"
+			(at 119.38 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c1af1d-498b-4fd0-a229-6db76407d967")
+		)
+		(instances
+			(project ""
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -8732,7 +8822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 124.1552 63.5 0)
 			(effects
 				(font
@@ -8751,6 +8841,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LOSC" "C1523"
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -8801,7 +8900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.2152 63.5 0)
 			(effects
 				(font
@@ -8828,6 +8927,15 @@
 				(hide yes)
 			)
 		)
+		(property "LOSC" "C1553"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50539ebb-1c45-4948-9253-68a22235e530")
 		)
@@ -8838,6 +8946,72 @@
 			(project "mt7628v1"
 				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
 					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 36.83 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "721cda4c-945f-4886-b490-8d2729f43595")
+		(property "Reference" "#PWR0109"
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WF_SX_3V3_IN"
+			(at 36.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc9771e0-453d-4b4c-80de-ae52b37bf652")
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -8930,7 +9104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 116.078 90)
 			(effects
 				(font
@@ -8950,6 +9124,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 106.68 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.0052 62.23 0)
 			(effects
 				(font
@@ -9018,6 +9201,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15684"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -9068,7 +9260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 87.63 0)
 			(effects
 				(font
@@ -9087,6 +9279,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1546"
 			(at 114.3 83.82 0)
 			(effects
 				(font
@@ -9135,7 +9336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 154.94 49.53 0)
 			(effects
 				(font
@@ -9155,6 +9356,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18216"
+			(at 154.94 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.4952 45.72 0)
 			(effects
 				(font
@@ -9285,6 +9495,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 176.53 41.91 0)
 			(effects
 				(font
@@ -9335,7 +9554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 83.5152 69.85 0)
 			(effects
 				(font
@@ -9354,6 +9573,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88880"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -9467,7 +9695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.1852 87.63 0)
 			(effects
 				(font
@@ -9486,6 +9714,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15684"
 			(at 109.22 83.82 0)
 			(effects
 				(font
@@ -9599,7 +9836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.9448 62.23 0)
 			(effects
 				(font
@@ -9618,6 +9855,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LOSC" "C1551"
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -9668,7 +9914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 115.57 0)
 			(effects
 				(font
@@ -9687,6 +9933,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1691"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -9922,7 +10177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 208.28 55.88 0)
 			(effects
 				(font
@@ -9942,6 +10197,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77105"
+			(at 208.28 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,7 +10256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 144.78 41.91 0)
 			(effects
 				(font
@@ -10011,6 +10275,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 144.78 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21585"
 			(at 144.78 41.91 0)
 			(effects
 				(font
@@ -10124,7 +10397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 82.55 0)
 			(effects
 				(font
@@ -10143,6 +10416,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1546"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -10193,7 +10475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 37.7952 59.69 0)
 			(effects
 				(font
@@ -10212,6 +10494,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1546"
 			(at 36.83 55.88 0)
 			(effects
 				(font
@@ -10262,7 +10553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 56.8452 62.23 0)
 			(effects
 				(font
@@ -10281,6 +10572,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1546"
 			(at 55.88 58.42 0)
 			(effects
 				(font
@@ -10423,7 +10723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.5552 81.28 0)
 			(effects
 				(font
@@ -10442,6 +10742,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1546"
 			(at 148.59 77.47 0)
 			(effects
 				(font
@@ -10492,7 +10801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 63.5 0)
 			(effects
 				(font
@@ -10511,6 +10820,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LOSC" "C1553"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -10561,7 +10879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 70.8152 115.57 0)
 			(effects
 				(font
@@ -10580,6 +10898,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 69.85 111.76 0)
 			(effects
 				(font
@@ -10630,7 +10957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -10649,6 +10976,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76770"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -10699,7 +11035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.2352 85.09 0)
 			(effects
 				(font
@@ -10726,6 +11062,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1546"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fcd0609a-b0e4-49e4-9b1e-b41b150a7548")
 		)
@@ -10736,69 +11081,6 @@
 			(project "mt7628v1"
 				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
 					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MT7688AN_Power-altium-import:GND_POWER_GROUND")
-		(at 40.64 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d172dd73-d8bc-4891-97ce-f8f7a5f4f889")
-		(property "Reference" "#PWR047"
-			(at 40.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "dd5e6c0d-8581-486e-848b-bafb53c36ac2")
-		)
-		(instances
-			(project "mt7628v1"
-				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/5f56969f-c15e-472c-a90e-1c9ed534eadd"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10831,7 +11113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 47.9552 59.69 0)
 			(effects
 				(font
@@ -10850,6 +11132,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15684"
 			(at 46.99 55.88 0)
 			(effects
 				(font
@@ -11027,7 +11318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 137.16 41.91 0)
 			(effects
 				(font
@@ -11046,6 +11337,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21585"
 			(at 137.16 41.91 0)
 			(effects
 				(font
@@ -11220,7 +11520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.1952 45.72 0)
 			(effects
 				(font
@@ -11239,6 +11539,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15684"
 			(at 62.23 41.91 0)
 			(effects
 				(font
@@ -11352,7 +11661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.0452 57.15 0)
 			(effects
 				(font
@@ -11371,6 +11680,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LOSC" "C1523"
 			(at 132.08 53.34 0)
 			(effects
 				(font
@@ -11547,7 +11865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 126.6952 45.72 0)
 			(effects
 				(font
@@ -11566,6 +11884,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15684"
 			(at 125.73 41.91 0)
 			(effects
 				(font

@@ -1801,7 +1801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603_C"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 85.09 0)
 			(effects
 				(font
@@ -1875,6 +1875,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8032"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

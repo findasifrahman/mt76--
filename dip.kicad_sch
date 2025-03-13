@@ -3339,6 +3339,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "NC"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "ddb87996-2b36-43af-851d-96b1d504c7d5")
 		)
@@ -3538,6 +3547,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "NC"
 			(at 107.95 106.68 0)
 			(effects
 				(font
