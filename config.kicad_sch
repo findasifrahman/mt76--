@@ -1742,6 +1742,15 @@
 				(justify left bottom)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8cbd3c59-4ba5-42b4-9352-8602b4958a00")
 		)
@@ -2068,6 +2077,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC" "NC"
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

@@ -513,6 +513,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MT7688AN_Reset-altium-import:root_2_Res1_Miscellaneous Devices.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402_R*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_2_Res1_Miscellaneous Devices.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -4.064 2.54) (xy -3.81 3.048) (xy -3.302 2.032) (xy -2.794 3.048) (xy -2.286 2.032)
+						(xy -1.778 3.048) (xy -1.27 2.032) (xy -1.016 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mt7628_222:MT7628_*"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3712,6 +3827,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 29.21) (xy 43.18 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b802e8-a07e-4c0a-8857-3294096a3501")
+	)
+	(wire
+		(pts
 			(xy 31.75 39.37) (xy 34.29 39.37)
 		)
 		(stroke
@@ -3852,6 +3977,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 17.78) (xy 43.18 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495442a2-825f-423b-8c48-d5b40eef885b")
+	)
+	(wire
+		(pts
 			(xy 115.57 34.29) (xy 127 34.29)
 		)
 		(stroke
@@ -3859,6 +3994,16 @@
 			(type default)
 		)
 		(uuid "4f7ca90f-a756-4b08-b907-5af836d665fb")
+	)
+	(wire
+		(pts
+			(xy 43.18 30.48) (xy 54.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508527bd-c12b-4e70-9f2b-974d5dc76586")
 	)
 	(wire
 		(pts
@@ -4582,16 +4727,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 30.48) (xy 54.61 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa889bb4-0478-4296-893a-c76973adab1a")
-	)
-	(wire
-		(pts
 			(xy 48.26 33.02) (xy 54.61 33.02)
 		)
 		(stroke
@@ -4814,7 +4949,7 @@
 			)
 		)
 	)
-	(global_label "SPI_M0SI"
+	(global_label "SPI_MOSI"
 		(shape input)
 		(at 48.26 29.21 180)
 		(fields_autoplaced yes)
@@ -4826,7 +4961,7 @@
 		)
 		(uuid "3a14236f-c5f7-465f-bb11-fc9e9d28ddea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.6551 29.21 0)
+			(at 43.6067 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,22 +5127,22 @@
 	)
 	(global_label "SPI_CLK"
 		(shape input)
-		(at 48.26 30.48 180)
+		(at 43.18 17.78 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.508 0.508)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6ed18661-0453-416b-b4f8-bfadbafe7f0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.018 30.48 0)
+			(at 43.18 13.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6031,7 +6166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MT7628:MT7628_footprint"
+		(property "Footprint" "Library:MT7628_footprint"
 			(at 62.23 27.94 0)
 			(effects
 				(font
@@ -6563,7 +6698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MT7628:MT7628_footprint"
+		(property "Footprint" "Library:MT7628_footprint"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -7576,6 +7711,155 @@
 			(project "mt7628v1"
 				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/218ba002-e319-46e9-a80e-651bdbb44c2c"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MT7688AN_Reset-altium-import:root_2_Res1_Miscellaneous Devices.SchLib")
+		(at 45.72 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7af016ef-e81e-41dd-81d6-91c487ae6cca")
+		(property "Reference" "R11"
+			(at 42.418 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22"
+			(at 42.418 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" "8-Jun-2000"
+			(at 42.418 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" "17-Jul-2002"
+			(at 42.418 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
+			(at 42.418 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGEREFERENCE" "AXIAL-0.3"
+			(at 42.418 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" "Altium Limited"
+			(at 42.418 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGEDESCRIPTION" "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"
+			(at 42.418 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "22¦¸"
+			(at 46.482 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3475996e-7910-4140-abc0-7dff73e64f81")
+		)
+		(pin "1"
+			(uuid "1404a7b1-db0b-461e-b5e2-5784449b7a82")
+		)
+		(instances
+			(project "mt7628v1"
+				(path "/144686d4-2b77-460c-9924-cc86faff7e9d/218ba002-e319-46e9-a80e-651bdbb44c2c"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8597,7 +8881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MT7628:MT7628_footprint"
+		(property "Footprint" "Library:MT7628_footprint"
 			(at 124.46 99.06 0)
 			(effects
 				(font

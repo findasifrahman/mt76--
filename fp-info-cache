@@ -1,4 +1,4 @@
-24785886426254565
+24789370304433735
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65855,6 +65855,13 @@ IND_VLS252012ET-100M
 0
 2
 2
+Library
+MT7628_footprint
+
+
+0
+157
+156
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -99686,6 +99693,13 @@ SMA-TH_SMA-KE-P903
 0
 5
 5
+easyeda2kicad
+SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL
+
+
+0
+8
+8
 easyeda2kicad
 SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR
 

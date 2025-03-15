@@ -1049,7 +1049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0402_R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.75 128.27 0)
 			(effects
 				(font
@@ -1146,6 +1146,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25104"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a4b7fc17-3b08-4cc8-b1b7-1ac0ae790933")
 		)
@@ -1189,7 +1198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0402_R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.75 115.57 0)
 			(effects
 				(font
@@ -1283,6 +1292,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25104"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1391,7 +1409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0402_R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -1488,6 +1506,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25545"
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc6f34e0-2c26-40b8-8897-11ed6ee7f825")
 		)
@@ -1531,7 +1558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0402_R"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 113.03 80.01 0)
 			(effects
 				(font
@@ -1628,6 +1655,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25092"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "300fbe03-ab68-4873-9fb8-f7762b1ac471")
 		)
@@ -1671,7 +1707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603_LED_S1"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 125.73 110.49 0)
 			(effects
 				(font
@@ -1755,6 +1791,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9900005774"
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2056,7 +2101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "0603_LED_S1"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 125.73 123.19 0)
 			(effects
 				(font
@@ -2140,6 +2185,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9900005774"
+			(at 125.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
