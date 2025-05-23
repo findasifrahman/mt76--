@@ -1687,7 +1687,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q32JVSS"
+		(property "Value" "W25Q256JVEIQ"
 			(at 163.83 92.7099 0)
 			(effects
 				(font
@@ -1697,7 +1697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
+		(property "Footprint" "easyeda2kicad:WSON-8_L8.0-W6.10-P1.27-BL-EP"
 			(at 152.4 91.44 0)
 			(effects
 				(font
@@ -1724,7 +1724,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C82344"
+		(property "LCSC" "C97522"
 			(at 152.4 91.44 0)
 			(effects
 				(font

@@ -2805,6 +2805,10 @@
 		(uuid "9269c3ed-cf98-48a9-8be5-bfe4a71aaad2")
 	)
 	(no_connect
+		(at 78.74 97.79)
+		(uuid "d3ed9724-c03c-47e1-ae63-44107fa768b7")
+	)
+	(no_connect
 		(at 157.48 137.16)
 		(uuid "e1f19733-9780-410d-95b9-3bfdb00d975f")
 	)
@@ -2883,15 +2887,6 @@
 			(type default)
 		)
 		(uuid "50aa34e3-e9e4-41de-9336-e5139c2f8199")
-	)
-	(bus_entry
-		(at 58.42 95.25)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b0c587-56c0-46c6-9709-67cfe8f2e1dc")
 	)
 	(bus_entry
 		(at 58.42 69.85)
@@ -3631,16 +3626,6 @@
 			(type default)
 		)
 		(uuid "53b4b39a-6627-4c0b-826a-39103ac3f406")
-	)
-	(wire
-		(pts
-			(xy 60.96 97.79) (xy 78.74 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56055061-678b-4933-aaab-a938a0ec6382")
 	)
 	(bus
 		(pts
@@ -5022,16 +5007,6 @@
 		)
 		(uuid "1ab0366b-de41-4b30-ab79-945fcc0c7c32")
 	)
-	(label "MADDR13"
-		(at 63.5 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c30f076-45c5-48ae-af86-76240bd028b2")
-	)
 	(label "DDR_CASN"
 		(at 55.88 135.89 0)
 		(effects
@@ -5202,7 +5177,7 @@
 		)
 		(uuid "72ae062c-33fc-4fa6-95fb-23104f18958b")
 	)
-	(label "MADDR[0..13]"
+	(label "MADDR[0..12]"
 		(at 40.64 54.61 0)
 		(effects
 			(font
@@ -8052,7 +8027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "W9725G6KB-25"
+		(property "Value" "W971GG6SB25I"
 			(at 157.988 58.42 0)
 			(effects
 				(font
@@ -8061,7 +8036,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:WBGA-84_L12.5-W8.0-P0.80-TL_WINBOND_W9725G6KB"
+		(property "Footprint" "easyeda2kicad:WBGA-84_L12.5-W8.0-P0.80-TL_W9751G6KB"
 			(at 86.36 151.13 0)
 			(effects
 				(font
@@ -8088,7 +8063,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C571266"
+		(property "LCSC" "C191947"
 			(at 86.36 151.13 0)
 			(effects
 				(font

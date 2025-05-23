@@ -3933,6 +3933,10 @@
 		(color 0 0 0 0)
 		(uuid "faf4cf60-514c-4bdc-8c90-bca377e0cef7")
 	)
+	(no_connect
+		(at 115.57 78.74)
+		(uuid "f669c1bb-efb5-474e-8516-eb3d4e09181a")
+	)
 	(wire
 		(pts
 			(xy 115.57 78.74) (xy 106.68 78.74)
@@ -4970,28 +4974,6 @@
 		(uuid "13fc7631-002e-49a5-b251-39b98df63a8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.9045 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MADDR13"
-		(shape input)
-		(at 115.57 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left)
-		)
-		(uuid "22e655b5-f0b0-4123-a61b-4c027b7fdd7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2717 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +6387,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6937e628-fc16-4eae-a372-db3e4b59175c")
 		(property "Reference" "#PWR042"
 			(at 73.66 92.71 0)
@@ -6417,7 +6398,7 @@
 			)
 		)
 		(property "Value" "DDR_IO_1V8_MT7628"
-			(at 73.66 83.82 0)
+			(at 72.39 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,8 +7188,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 95.25 59.69 0)
+		(property "Value" "MT7628NN"
+			(at 95.504 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,6 +7215,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2762437"
 			(at 95.25 72.39 0)
 			(effects
 				(font

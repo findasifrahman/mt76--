@@ -1446,7 +1446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "NC"
 			(at 73.66 83.82 0)
 			(effects
 				(font
@@ -1594,7 +1594,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "NC"
 			(at 73.66 99.06 0)
 			(effects
 				(font
